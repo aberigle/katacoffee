@@ -3,6 +3,6 @@
 Foo = require '../src/foo'
 
 describe 'foo', ->
-  it 'should scream one', (done) ->
+  it 'should say what', (done) ->
     Foo.sayWhat().should.be.exactly "what"
     done()
